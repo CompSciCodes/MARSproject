@@ -218,6 +218,10 @@ marquee {
 	height: 15em;
 }
 
+iframe {
+	width: 100%;
+	height: 25em;
+}
 
 
 
