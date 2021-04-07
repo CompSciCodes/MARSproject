@@ -1,0 +1,56 @@
+
+<html>
+
+<head>
+
+	<title>Login</title>
+	<link rel="stylesheet" href="loginStyle.css">		
+	<link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet">
+
+</head>
+
+<body class="home">
+
+	<img src="toHome/images/marsProject_header.JPG" class="header"  id="top">
+
+	<hr><br><br>
+
+	<h2>For Site Access</h2>
+
+	<script>
+
+		function passWord() {
+			var testV = 1;
+			var pass1 = prompt('Please Enter Your Password','Password');
+			
+			while (testV < 3) {
+				if (!pass1)
+				history.go(-1);
+				if (pass1.toLowerCase() == "mars") {
+					alert('Going to Website');
+					window.open('toHome/home.html');
+					break;
+				}
+
+				testV+=1;
+				var pass1 =
+				prompt('Access Denied - Password Incorrect, Please Try Again.','Password');
+			}
+
+			if (pass1.toLowerCase()!="password" & testV ==3)
+			history.go(-1);
+			return " ";
+		}
+
+	</script>
+
+	<br><br>
+
+	<center>
+		<form>
+			<input type="button" value="Enter Protected Area" onClick="passWord()">
+		</form>
+	</center>
+
+</body>
+</html>	
