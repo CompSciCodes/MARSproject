@@ -13,7 +13,7 @@
 
 	<img src="toHome/images/marsProject_header.JPG" class="header"  id="top">
 
-	<hr><br>
+	<hr><br><br>
 
 	<h2>For Site Access</h2>
 
@@ -21,7 +21,7 @@
 
 		function passWord() {
 			var testV = 1;
-			var pass1 = prompt('Please Enter Your Password',' ');
+			var pass1 = prompt('Please Enter Your Password','Password');
 			
 			while (testV < 3) {
 				if (!pass1)
@@ -34,7 +34,7 @@
 
 				testV+=1;
 				var pass1 =
-				prompt('Access Denied - Password Incorrect, Please Try Again.',' ');
+				prompt('Access Denied - Password Incorrect, Please Try Again.','Password');
 			}
 
 			if (pass1.toLowerCase()!="password" & testV ==3)
@@ -48,11 +48,13 @@
 
 	<center>
 		<form>
-			<input type="button" value="CLICK HERE" onClick="passWord()">
+			<input type="button" value="Enter Protected Area" onClick="passWord()">
 		</form>
 	</center>
-	
-	<br><br><br><br><br><br>
+
+	<br><br>>
+
+	<center><h3>© 2017 <span class="project">MARS&#x2191Project</span>. All rights reserved.</h3></center>
 
 </body>
 </html>	
