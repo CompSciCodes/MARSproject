@@ -4,7 +4,7 @@
 }
 
 body {
-	font-family: 'New Tegomin', serif;	 
+	font-family: 'Orbitron', sans-serif;	 
 }
 
 .header {
@@ -22,14 +22,14 @@ h2 {
 
 script {
 	font-size: 2em;
-	font-family: 'New Tegomin', serif;
+	font-family: 'Orbitron', sans-serif;
 }
 
 input[type=button], input[type=submit], input[type=reset] {
   background-color: gray;
   border: none;
   color: white;
-  font-family: 'New Tegomin', serif;
+  font-family: 'Orbitron', sans-serif;
   font-size: 2em;
   padding: 16px 32px;
   text-decoration: none;
