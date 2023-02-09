@@ -87,6 +87,7 @@ h3 {
 	text-align: center;
 	/*font-size: 2em;*/
 	font-size: 1.6vw;
+	
 }
 
 h4 {
@@ -95,6 +96,7 @@ h4 {
 	text-align: center;
 	/*font-size: 1.5em;*/
 	font-size: 1.2vw;
+	
 }
 
 .project {
@@ -198,6 +200,7 @@ ul.intro {
 a:link {
 	display: block;
 	text-decoration: none;
+	color: black;
 }
 
 a:visited {
